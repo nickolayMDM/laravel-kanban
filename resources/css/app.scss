@@ -1,0 +1,21 @@
+@import "./variables";
+@import "./themeColors";
+
+html, body {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Nunito, Arial;
+    font-size: $fontSizeDefault;
+    color: var(--colorDarkText);
+}
+
+#app {
+    height: 100%;
+}

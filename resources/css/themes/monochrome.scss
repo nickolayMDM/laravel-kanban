@@ -1,0 +1,31 @@
+@import "../variables";
+
+.app--monochrome {
+    --colorBoardBackground: #{$colorBlack};
+    --colorTopMenuBackground: #{$colorGray};
+
+    --colorDarkText: #{$colorShark};
+    --colorLightText: #{$colorWhite};
+
+    --colorColumnBackground: #{$colorAlto};
+    --colorColumnBorder: #{$colorShark};
+
+    --colorCardBackground: #{$colorAlto};
+    --colorCardBorder: #{$colorShark};
+
+    --colorInputBorder: #{$colorShark};
+
+    --colorModalBackground: #{$colorAlto};
+
+    --colorButtonMainBackground: #{$colorGray};
+    --colorButtonMainBackgroundHover: #{darken($colorGray, $hoverDarkenAmountDefault)};
+    --colorButtonWarningBackground: #{$colorGray};
+    --colorButtonWarningBackgroundHover: #{darken($colorGray, $hoverDarkenAmountDefault)};
+    --colorButtonDangerBackground: #{$colorTundora};
+    --colorButtonDangerBackgroundHover: #{darken($colorTundora, $hoverDarkenAmountDefault)};
+}
+
+.theme-switch__option--monochrome {
+    background-color: $colorBlack;
+    color: $colorWhite;
+}

@@ -1,0 +1,66 @@
+.app--darkblue {
+  --colorBoardBackground: #22303c;
+  --colorTopMenuBackground: #7a94a9;
+  --colorDarkText: #1f2022;
+  --colorLightText: #ffffff;
+  --colorColumnBackground: #d3d3d3;
+  --colorColumnBorder: #1f2022;
+  --colorCardBackground: #d3d3d3;
+  --colorCardBorder: #1f2022;
+  --colorInputBorder: #1f2022;
+  --colorModalBackground: #d3d3d3;
+  --colorButtonMainBackground: #4b57db;
+  --colorButtonMainBackgroundHover: #202ba0;
+  --colorButtonWarningBackground: #d9a622;
+  --colorButtonWarningBackgroundHover: #816314;
+  --colorButtonDangerBackground: #db3925;
+  --colorButtonDangerBackgroundHover: #842216;
+}
+
+.theme-switch__option--darkblue {
+  background-color: #22303c;
+  color: #ffffff;
+}
+
+.app--monochrome {
+  --colorBoardBackground: #010101;
+  --colorTopMenuBackground: #808080;
+  --colorDarkText: #1f2022;
+  --colorLightText: #ffffff;
+  --colorColumnBackground: #d3d3d3;
+  --colorColumnBorder: #1f2022;
+  --colorCardBackground: #d3d3d3;
+  --colorCardBorder: #1f2022;
+  --colorInputBorder: #1f2022;
+  --colorModalBackground: #d3d3d3;
+  --colorButtonMainBackground: #808080;
+  --colorButtonMainBackgroundHover: #4d4d4d;
+  --colorButtonWarningBackground: #808080;
+  --colorButtonWarningBackgroundHover: #4d4d4d;
+  --colorButtonDangerBackground: #414141;
+  --colorButtonDangerBackgroundHover: #0e0e0e;
+}
+
+.theme-switch__option--monochrome {
+  background-color: #010101;
+  color: #ffffff;
+}
+
+html, body {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Nunito, Arial;
+  font-size: 14px;
+  color: var(--colorDarkText);
+}
+
+#app {
+  height: 100%;
+}

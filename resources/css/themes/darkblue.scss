@@ -1,0 +1,31 @@
+@import "../variables";
+
+.app--darkblue {
+    --colorBoardBackground: #{$colorEbonyClay};
+    --colorTopMenuBackground: #{$colorBaliHai};
+
+    --colorDarkText: #{$colorShark};
+    --colorLightText: #{$colorWhite};
+
+    --colorColumnBackground: #{$colorAlto};
+    --colorColumnBorder: #{$colorShark};
+
+    --colorCardBackground: #{$colorAlto};
+    --colorCardBorder: #{$colorShark};
+
+    --colorInputBorder: #{$colorShark};
+
+    --colorModalBackground: #{$colorAlto};
+
+    --colorButtonMainBackground: #{$colorRoyalBlue};
+    --colorButtonMainBackgroundHover: #{darken($colorRoyalBlue, $hoverDarkenAmountDefault)};
+    --colorButtonWarningBackground: #{$colorGoldenGrass};
+    --colorButtonWarningBackgroundHover: #{darken($colorGoldenGrass, $hoverDarkenAmountDefault)};
+    --colorButtonDangerBackground: #{$colorPunch};
+    --colorButtonDangerBackgroundHover: #{darken($colorPunch, $hoverDarkenAmountDefault)};
+}
+
+.theme-switch__option--darkblue {
+    background-color: $colorEbonyClay;
+    color: $colorWhite;
+}
